@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func play(_ sender: UIButton) {
+        prizeLabel.isHidden = true
         var num: Int = 0
         var sum: Int = 0
         var leftSum: Int = 0
@@ -54,16 +55,17 @@ class ViewController: UIViewController {
                 if leftSum > rightSum{
                     for dice in self.dices{
                 dice.image = UIImage(named: "ice")
-                self.prizeLabel.text = "You win an ice cream !"
-                }
-            }else{
+                        self.prizeLabel.isHidden = false
+                        self.prizeLabel.text = "You win an ice cream !"
+                    }}else{
                 dice.image = UIImage(named: "shit")
+                self.prizeLabel.isHidden = false
                 self.prizeLabel.text = "uh ... holy shit!"
             }
+                }
     }
     
     }
 
 }
 
-}
