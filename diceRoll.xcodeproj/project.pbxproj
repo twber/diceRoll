@@ -13,6 +13,7 @@
 		AB76789424FE8779006C0067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB76789224FE8779006C0067 /* Main.storyboard */; };
 		AB76789624FE877A006C0067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB76789524FE877A006C0067 /* Assets.xcassets */; };
 		AB76789924FE877A006C0067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB76789724FE877A006C0067 /* LaunchScreen.storyboard */; };
+		AB7678A1250185DD006C0067 /* onceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7678A0250185DD006C0067 /* onceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AB76789524FE877A006C0067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB76789824FE877A006C0067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB76789A24FE877A006C0067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7678A0250185DD006C0067 /* onceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AB76788E24FE8779006C0067 /* SceneDelegate.swift */,
 				AB76789024FE8779006C0067 /* ViewController.swift */,
 				AB76789224FE8779006C0067 /* Main.storyboard */,
+				AB7678A0250185DD006C0067 /* onceViewController.swift */,
 				AB76789524FE877A006C0067 /* Assets.xcassets */,
 				AB76789724FE877A006C0067 /* LaunchScreen.storyboard */,
 				AB76789A24FE877A006C0067 /* Info.plist */,
@@ -140,6 +143,7 @@
 				AB76789124FE8779006C0067 /* ViewController.swift in Sources */,
 				AB76788D24FE8779006C0067 /* AppDelegate.swift in Sources */,
 				AB76788F24FE8779006C0067 /* SceneDelegate.swift in Sources */,
+				AB7678A1250185DD006C0067 /* onceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
